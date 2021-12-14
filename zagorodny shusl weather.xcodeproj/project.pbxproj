@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A59DDCD92768A36F00E57330 /* City_name.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59DDCD82768A36F00E57330 /* City_name.swift */; };
+		A59DDCDB2768A3C200E57330 /* detailMVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59DDCDA2768A3C200E57330 /* detailMVC.swift */; };
+		A5FE17C027689D0A000223F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FE17BF27689D0A000223F5 /* AppDelegate.swift */; };
+		A5FE17C227689D0A000223F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FE17C127689D0A000223F5 /* SceneDelegate.swift */; };
+		A5FE17C427689D0A000223F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FE17C327689D0A000223F5 /* ViewController.swift */; };
+		A5FE17C727689D0A000223F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FE17C527689D0A000223F5 /* Main.storyboard */; };
+		A5FE17C927689D0C000223F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FE17C827689D0C000223F5 /* Assets.xcassets */; };
+		A5FE17CC27689D0C000223F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FE17CA27689D0C000223F5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5FE17D327689D0C000223F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5FE17B427689D0A000223F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FE17BB27689D0A000223F5;
+			remoteInfo = "zagorodny shusl weather";
+		};
+		A5FE17DD27689D0C000223F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5FE17B427689D0A000223F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FE17BB27689D0A000223F5;
+			remoteInfo = "zagorodny shusl weather";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A59DDCFF2768AAC500E57330 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A516EBFF2768AD4700B46598 /* Alamofire-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Alamofire-master"; path = "../../Downloads/Alamofire-master"; sourceTree = "<group>"; };
+		A554C7BF2768AC1C00FFECF4 /* Alamofire-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Alamofire-master"; path = "../../Downloads/Alamofire-master"; sourceTree = "<group>"; };
+		A59DDCD82768A36F00E57330 /* City_name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City_name.swift; sourceTree = "<group>"; };
+		A59DDCDA2768A3C200E57330 /* detailMVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailMVC.swift; sourceTree = "<group>"; };
+		A59DDCE12768A78C00E57330 /* Alamofire-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Alamofire-master"; path = "../../Downloads/Alamofire-master"; sourceTree = "<group>"; };
+		A59DDCE22768A8E000E57330 /* Alamofire-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Alamofire-master"; path = "../../Downloads/Alamofire-master"; sourceTree = "<group>"; };
+		A59DDCE32768A8FD00E57330 /* Alamofire-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Alamofire-master"; path = "../../Downloads/Alamofire-master"; sourceTree = "<group>"; };
+		A59DDCE42768A93500E57330 /* Alamofire-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Alamofire-master"; path = "../../Downloads/Alamofire-master"; sourceTree = "<group>"; };
+		A59DDCE52768A98500E57330 /* Alamofire-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Alamofire-master"; path = "../../Downloads/Alamofire-master"; sourceTree = "<group>"; };
+		A59DDCE62768A9EA00E57330 /* Alamofire-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Alamofire-master"; path = "../../Downloads/Alamofire-master"; sourceTree = "<group>"; };
+		A59DDCE72768AA2500E57330 /* Alamofire-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Alamofire-master"; path = "../../Downloads/Alamofire-master"; sourceTree = "<group>"; };
+		A59DDCE82768AA4100E57330 /* Alamofire-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Alamofire-master"; path = "../../Downloads/Alamofire-master"; sourceTree = "<group>"; };
+		A59DDCE92768AA9300E57330 /* Alamofire-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Alamofire-master"; path = "../../Downloads/Alamofire-master"; sourceTree = "<group>"; };
+		A59DDCF02768AAC500E57330 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		A59DDD012768AB2600E57330 /* Alamofire-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Alamofire-master"; path = "../../Downloads/Alamofire-master"; sourceTree = "<group>"; };
+		A5FE17BC27689D0A000223F5 /* zagorodny shusl weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zagorodny shusl weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FE17BF27689D0A000223F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5FE17C127689D0A000223F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A5FE17C327689D0A000223F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5FE17C627689D0A000223F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5FE17C827689D0C000223F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5FE17CB27689D0C000223F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5FE17CD27689D0C000223F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5FE17D227689D0C000223F5 /* zagorodny shusl weatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zagorodny shusl weatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FE17DC27689D0C000223F5 /* zagorodny shusl weatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zagorodny shusl weatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5FE17B927689D0A000223F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FE17CF27689D0C000223F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FE17D927689D0C000223F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A554C7BE2768AC1C00FFECF4 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				A554C7BF2768AC1C00FFECF4 /* Alamofire-master */,
+				A516EBFF2768AD4700B46598 /* Alamofire-master */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		A59DDCE02768A78C00E57330 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				A59DDCE12768A78C00E57330 /* Alamofire-master */,
+				A59DDCE22768A8E000E57330 /* Alamofire-master */,
+				A59DDCE32768A8FD00E57330 /* Alamofire-master */,
+				A59DDCE42768A93500E57330 /* Alamofire-master */,
+				A59DDCE52768A98500E57330 /* Alamofire-master */,
+				A59DDCE62768A9EA00E57330 /* Alamofire-master */,
+				A59DDCE72768AA2500E57330 /* Alamofire-master */,
+				A59DDCE82768AA4100E57330 /* Alamofire-master */,
+				A59DDCE92768AA9300E57330 /* Alamofire-master */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		A59DDCEF2768AAC500E57330 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A59DDCE02768A78C00E57330 /* Packages */,
+				A59DDD002768AB2600E57330 /* Packages */,
+				A59DDCF02768AAC500E57330 /* AuthenticationServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A59DDD002768AB2600E57330 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				A59DDD012768AB2600E57330 /* Alamofire-master */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		A5FE17B327689D0A000223F5 = {
+			isa = PBXGroup;
+			children = (
+				A554C7BE2768AC1C00FFECF4 /* Packages */,
+				A5FE17BE27689D0A000223F5 /* zagorodny shusl weather */,
+				A59DDCEF2768AAC500E57330 /* Frameworks */,
+				A5FE17BD27689D0A000223F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5FE17BD27689D0A000223F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5FE17BC27689D0A000223F5 /* zagorodny shusl weather.app */,
+				A5FE17D227689D0C000223F5 /* zagorodny shusl weatherTests.xctest */,
+				A5FE17DC27689D0C000223F5 /* zagorodny shusl weatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5FE17BE27689D0A000223F5 /* zagorodny shusl weather */ = {
+			isa = PBXGroup;
+			children = (
+				A5FE17BF27689D0A000223F5 /* AppDelegate.swift */,
+				A5FE17C127689D0A000223F5 /* SceneDelegate.swift */,
+				A5FE17C327689D0A000223F5 /* ViewController.swift */,
+				A5FE17C527689D0A000223F5 /* Main.storyboard */,
+				A59DDCD82768A36F00E57330 /* City_name.swift */,
+				A59DDCDA2768A3C200E57330 /* detailMVC.swift */,
+				A5FE17C827689D0C000223F5 /* Assets.xcassets */,
+				A5FE17CA27689D0C000223F5 /* LaunchScreen.storyboard */,
+				A5FE17CD27689D0C000223F5 /* Info.plist */,
+			);
+			path = "zagorodny shusl weather";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5FE17BB27689D0A000223F5 /* zagorodny shusl weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FE17E627689D0C000223F5 /* Build configuration list for PBXNativeTarget "zagorodny shusl weather" */;
+			buildPhases = (
+				A5FE17B827689D0A000223F5 /* Sources */,
+				A5FE17B927689D0A000223F5 /* Frameworks */,
+				A5FE17BA27689D0A000223F5 /* Resources */,
+				A59DDCFF2768AAC500E57330 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zagorodny shusl weather";
+			productName = "zagorodny shusl weather";
+			productReference = A5FE17BC27689D0A000223F5 /* zagorodny shusl weather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5FE17D127689D0C000223F5 /* zagorodny shusl weatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FE17E927689D0C000223F5 /* Build configuration list for PBXNativeTarget "zagorodny shusl weatherTests" */;
+			buildPhases = (
+				A5FE17CE27689D0C000223F5 /* Sources */,
+				A5FE17CF27689D0C000223F5 /* Frameworks */,
+				A5FE17D027689D0C000223F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5FE17D427689D0C000223F5 /* PBXTargetDependency */,
+			);
+			name = "zagorodny shusl weatherTests";
+			productName = "zagorodny shusl weatherTests";
+			productReference = A5FE17D227689D0C000223F5 /* zagorodny shusl weatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5FE17DB27689D0C000223F5 /* zagorodny shusl weatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FE17EC27689D0C000223F5 /* Build configuration list for PBXNativeTarget "zagorodny shusl weatherUITests" */;
+			buildPhases = (
+				A5FE17D827689D0C000223F5 /* Sources */,
+				A5FE17D927689D0C000223F5 /* Frameworks */,
+				A5FE17DA27689D0C000223F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5FE17DE27689D0C000223F5 /* PBXTargetDependency */,
+			);
+			name = "zagorodny shusl weatherUITests";
+			productName = "zagorodny shusl weatherUITests";
+			productReference = A5FE17DC27689D0C000223F5 /* zagorodny shusl weatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5FE17B427689D0A000223F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					A5FE17BB27689D0A000223F5 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					A5FE17D127689D0C000223F5 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A5FE17BB27689D0A000223F5;
+					};
+					A5FE17DB27689D0C000223F5 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A5FE17BB27689D0A000223F5;
+					};
+				};
+			};
+			buildConfigurationList = A5FE17B727689D0A000223F5 /* Build configuration list for PBXProject "zagorodny shusl weather" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5FE17B327689D0A000223F5;
+			productRefGroup = A5FE17BD27689D0A000223F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5FE17BB27689D0A000223F5 /* zagorodny shusl weather */,
+				A5FE17D127689D0C000223F5 /* zagorodny shusl weatherTests */,
+				A5FE17DB27689D0C000223F5 /* zagorodny shusl weatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5FE17BA27689D0A000223F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FE17CC27689D0C000223F5 /* LaunchScreen.storyboard in Resources */,
+				A5FE17C927689D0C000223F5 /* Assets.xcassets in Resources */,
+				A5FE17C727689D0A000223F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FE17D027689D0C000223F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FE17DA27689D0C000223F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5FE17B827689D0A000223F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FE17C427689D0A000223F5 /* ViewController.swift in Sources */,
+				A59DDCDB2768A3C200E57330 /* detailMVC.swift in Sources */,
+				A5FE17C027689D0A000223F5 /* AppDelegate.swift in Sources */,
+				A5FE17C227689D0A000223F5 /* SceneDelegate.swift in Sources */,
+				A59DDCD92768A36F00E57330 /* City_name.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FE17CE27689D0C000223F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FE17D827689D0C000223F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5FE17D427689D0C000223F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5FE17BB27689D0A000223F5 /* zagorodny shusl weather */;
+			targetProxy = A5FE17D327689D0C000223F5 /* PBXContainerItemProxy */;
+		};
+		A5FE17DE27689D0C000223F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5FE17BB27689D0A000223F5 /* zagorodny shusl weather */;
+			targetProxy = A5FE17DD27689D0C000223F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5FE17C527689D0A000223F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5FE17C627689D0A000223F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5FE17CA27689D0C000223F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5FE17CB27689D0C000223F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5FE17E427689D0C000223F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5FE17E527689D0C000223F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5FE17E727689D0C000223F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 529YP6Q7F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "zagorodny shusl weather/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zagorodny.zagorodny-shusl-weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5FE17E827689D0C000223F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 529YP6Q7F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "zagorodny shusl weather/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zagorodny.zagorodny-shusl-weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5FE17EA27689D0C000223F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 529YP6Q7F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zagorodny.zagorodny-shusl-weatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zagorodny shusl weather.app/zagorodny shusl weather";
+			};
+			name = Debug;
+		};
+		A5FE17EB27689D0C000223F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 529YP6Q7F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zagorodny.zagorodny-shusl-weatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zagorodny shusl weather.app/zagorodny shusl weather";
+			};
+			name = Release;
+		};
+		A5FE17ED27689D0C000223F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 529YP6Q7F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zagorodny.zagorodny-shusl-weatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "zagorodny shusl weather";
+			};
+			name = Debug;
+		};
+		A5FE17EE27689D0C000223F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 529YP6Q7F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zagorodny.zagorodny-shusl-weatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "zagorodny shusl weather";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5FE17B727689D0A000223F5 /* Build configuration list for PBXProject "zagorodny shusl weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FE17E427689D0C000223F5 /* Debug */,
+				A5FE17E527689D0C000223F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FE17E627689D0C000223F5 /* Build configuration list for PBXNativeTarget "zagorodny shusl weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FE17E727689D0C000223F5 /* Debug */,
+				A5FE17E827689D0C000223F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FE17E927689D0C000223F5 /* Build configuration list for PBXNativeTarget "zagorodny shusl weatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FE17EA27689D0C000223F5 /* Debug */,
+				A5FE17EB27689D0C000223F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FE17EC27689D0C000223F5 /* Build configuration list for PBXNativeTarget "zagorodny shusl weatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FE17ED27689D0C000223F5 /* Debug */,
+				A5FE17EE27689D0C000223F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5FE17B427689D0A000223F5 /* Project object */;
+}
